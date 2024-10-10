@@ -1,5 +1,4 @@
-#ifndef HUMANB_HPP
-# define HUMANB_HPP
+#pragma once
 
 #include "Weapon.hpp"
 
@@ -14,5 +13,3 @@ private:
     std::string _name;
     Weapon *_weapon;
 };
-
-#endif

@@ -1,5 +1,4 @@
-#ifndef WEAPON_HPP
-# define WEAPON_HPP
+#pragma once
 
 # include <iostream>
 
@@ -13,5 +12,3 @@ public:
 private:
 	std::string	_type;
 };
-
-#endif
