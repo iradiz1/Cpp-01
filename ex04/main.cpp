@@ -24,6 +24,14 @@ int main(int argc, char **argv){
         return 1;
     }
 
+    std::string str1 = argv[2];
+    std::string str2 = argv[3];
+
+    if (str1.size() == 0 || str2.size() == 0){
+        std::cout << "Error: empty string" << std::endl;
+        return 1;
+    }
+
     std::ifstream infile(argv[1]);
     if (!infile.is_open()) {
         std::cout << "Error: unable to open infile" << std::endl;
